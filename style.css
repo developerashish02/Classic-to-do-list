@@ -92,3 +92,15 @@ form button {
 	text-decoration: line-through;
 	opacity: 0.5;
 }
+
+/* counter Task */
+.counter {
+	height: 30px;
+	width: 100px;
+	margin: auto;
+}
+
+.task {
+	font-size: 1.8rem;
+	margin-left: 0.5rem;
+}
