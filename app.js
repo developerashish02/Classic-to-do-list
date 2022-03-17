@@ -4,14 +4,31 @@
 const todoInput = document.querySelector(".todo-input");
 const todoButton = document.querySelector(".todo-button");
 const todoList = document.querySelector(".todo-list");
+const taskCounter = document.getElementById('count');
+let taskCount = 0;
 
 // Event Listener
 todoButton.addEventListener("click", addTodo);
 todoList.addEventListener("click", deleteToDo);
 todoList.addEventListener("click", checkToDo);
 
+// list counter
+
+function listTaskCounter() {
+	taskCounter.innerText = taskCount;
+}
 // -----------------Add to do-------------------------//
 function addTodo(event) {
+	// when input field is empty 
+	if (todoInput.value === '') {
+		alert("The task is not should  empty");
+		return;
+	}
+
+	// increase taskCount if task is added
+	taskCount += 1;
+	listTaskCounter();
+
 	// prevent defualt
 	event.preventDefault();
 	// creating div and its class
@@ -42,23 +59,42 @@ function addTodo(event) {
 
 	// clear to do input
 	todoInput.value = "";
+
 }
 
 // delete todo//
 function deleteToDo(event) {
+
 	const item = event.target;
 	if (item.classList[0] === "delete-btn") {
 		const todo = item.parentElement;
 		todo.remove();
 	}
+
+	// when task is zero we return it
+	if (taskCount === 0) {
+		return;
+	}
+
+	// decrease taskCount if task is deleted
+	taskCount -= 1;
+	listTaskCounter();
 }
 
 // checked todo task
 function checkToDo(event) {
-    const item = event.target;
-    if (item.classList[0] === 'completed-btn') {
-        const todo = item.parentElement;
-        console.log(todo);
-        todo.classList.toggle("completed");
-    }
+
+	const item = event.target;
+	if (item.classList[0] === 'completed-btn') {
+		const todo = item.parentElement;
+		console.log(todo);
+		todo.classList.toggle("completed");
+	}
+
+	// when task is zero we return it
+	if (taskCount === 0) {
+		return;
+	}
+
 }
+
