@@ -23,14 +23,14 @@ function addTodo(event) {
 
     // Completed button (Checkmark) 
     const completedButton = document.createElement('button');
-    completedButton.innerHTML = ' <i class="fa-solid fa-badge-check"></i> ';
+    completedButton.innerHTML = ' <i class="fas fa-check"></i> ';
     completedButton.classList.add("completed-btn");
     todoDiv.appendChild(completedButton);
     console.log(completedButton);
 
     // deleted button  
     const deletedButton = document.createElement('button');
-    deletedButton.innerHTML = ' <i class="fa-solid fa-circle-trash"></i> ';
+    deletedButton.innerHTML = `<i class="fas fa-trash"></i>`;
     deletedButton.classList.add("delete-btn");
     todoDiv.appendChild(deletedButton);
     console.log(deletedButton);
