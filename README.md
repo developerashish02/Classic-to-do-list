@@ -18,3 +18,14 @@ This is a classic to-do list you can add the task, when the task is complete add
 https://developerashish02.github.io/Classic-to-do-list/
 ```
 
+
+## Screenshots
+
+![App Screenshot](https://github.com/developerashish02/Classic-to-do-list/blob/main/Screenshots/Screenshot%20(3).png?raw=true)
+
+## Multiple Task  Added
+
+![App Screenshot](https://github.com/developerashish02/Classic-to-do-list/blob/main/Screenshots/Screenshot%20(7).png?raw=true)
+
+## Task Completed
+![App Screenshot](https://github.com/developerashish02/Classic-to-do-list/blob/main/Screenshots/Screenshot%20(8).png?raw=true).png?raw=true)
