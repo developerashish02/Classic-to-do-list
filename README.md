@@ -11,12 +11,9 @@ This is a classic to-do list you can add the task, when the task is complete add
 
 
 ## Deployment
+The Classic To Do List Deployment On Git Hub Pages 
 
-  The Classic To Do List Deployment On Git Hub Pages 
-
-```bash
 https://developerashish02.github.io/Classic-to-do-list/
-```
 
 
 ## Screenshots
