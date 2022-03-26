@@ -28,4 +28,4 @@ https://developerashish02.github.io/Classic-to-do-list/
 ![App Screenshot](https://github.com/developerashish02/Classic-to-do-list/blob/main/Screenshots/Screenshot%20(7).png?raw=true)
 
 ## Task Completed
-![App Screenshot](https://github.com/developerashish02/Classic-to-do-list/blob/main/Screenshots/Screenshot%20(8).png?raw=true).png?raw=true)
+![App Screenshot](https://github.com/developerashish02/Classic-to-do-list/blob/main/Screenshots/Screenshot%20(8).png?raw=true)
